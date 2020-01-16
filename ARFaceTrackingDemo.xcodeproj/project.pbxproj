@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96041D4823D0355100AE1162 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96041D4723D0355100AE1162 /* AppDelegate.m */; };
+		96041D4A23D0355100AE1162 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 96041D4923D0355100AE1162 /* art.scnassets */; };
+		96041D4D23D0355100AE1162 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96041D4C23D0355100AE1162 /* ViewController.m */; };
+		96041D5023D0355100AE1162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96041D4E23D0355100AE1162 /* Main.storyboard */; };
+		96041D5223D0355300AE1162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96041D5123D0355300AE1162 /* Assets.xcassets */; };
+		96041D5523D0355300AE1162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96041D5323D0355300AE1162 /* LaunchScreen.storyboard */; };
+		96041D5823D0355300AE1162 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96041D5723D0355300AE1162 /* main.m */; };
+		96041D6223D0355400AE1162 /* ARFaceTrackingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96041D6123D0355400AE1162 /* ARFaceTrackingDemoTests.m */; };
+		96041D6D23D0355400AE1162 /* ARFaceTrackingDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96041D6C23D0355400AE1162 /* ARFaceTrackingDemoUITests.m */; };
+		96041D8523D0370100AE1162 /* CJHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96041D8423D0370100AE1162 /* CJHomeTableViewController.m */; };
+		96041D8823D0375300AE1162 /* CJFaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96041D8723D0375300AE1162 /* CJFaceViewController.m */; };
+		96041D8C23D03D0C00AE1162 /* CJVirtualFaceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 96041D8B23D03D0C00AE1162 /* CJVirtualFaceManager.m */; };
+		96041D9023D03F6E00AE1162 /* CJMeshFaceNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 96041D8F23D03F6E00AE1162 /* CJMeshFaceNode.m */; };
+		96041D9323D03F7B00AE1162 /* CJMaskFaceNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 96041D9223D03F7B00AE1162 /* CJMaskFaceNode.m */; };
+		96041D9623D03F9100AE1162 /* CJRebotFaceNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 96041D9523D03F9100AE1162 /* CJRebotFaceNode.m */; };
+		96041D9823D0519D00AE1162 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 96041D9723D0519D00AE1162 /* Models.scnassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96041D5E23D0355400AE1162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96041D3B23D0355100AE1162 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96041D4223D0355100AE1162;
+			remoteInfo = ARFaceTrackingDemo;
+		};
+		96041D6923D0355400AE1162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96041D3B23D0355100AE1162 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96041D4223D0355100AE1162;
+			remoteInfo = ARFaceTrackingDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96041D4323D0355100AE1162 /* ARFaceTrackingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARFaceTrackingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96041D4623D0355100AE1162 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		96041D4723D0355100AE1162 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		96041D4923D0355100AE1162 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		96041D4B23D0355100AE1162 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		96041D4C23D0355100AE1162 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		96041D4F23D0355100AE1162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96041D5123D0355300AE1162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96041D5423D0355300AE1162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96041D5623D0355300AE1162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96041D5723D0355300AE1162 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96041D5D23D0355400AE1162 /* ARFaceTrackingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARFaceTrackingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96041D6123D0355400AE1162 /* ARFaceTrackingDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARFaceTrackingDemoTests.m; sourceTree = "<group>"; };
+		96041D6323D0355400AE1162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96041D6823D0355400AE1162 /* ARFaceTrackingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARFaceTrackingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96041D6C23D0355400AE1162 /* ARFaceTrackingDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARFaceTrackingDemoUITests.m; sourceTree = "<group>"; };
+		96041D6E23D0355400AE1162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96041D8323D0370100AE1162 /* CJHomeTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJHomeTableViewController.h; sourceTree = "<group>"; };
+		96041D8423D0370100AE1162 /* CJHomeTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJHomeTableViewController.m; sourceTree = "<group>"; };
+		96041D8623D0375300AE1162 /* CJFaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJFaceViewController.h; sourceTree = "<group>"; };
+		96041D8723D0375300AE1162 /* CJFaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJFaceViewController.m; sourceTree = "<group>"; };
+		96041D8A23D03D0C00AE1162 /* CJVirtualFaceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJVirtualFaceManager.h; sourceTree = "<group>"; };
+		96041D8B23D03D0C00AE1162 /* CJVirtualFaceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJVirtualFaceManager.m; sourceTree = "<group>"; };
+		96041D8E23D03F6E00AE1162 /* CJMeshFaceNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJMeshFaceNode.h; sourceTree = "<group>"; };
+		96041D8F23D03F6E00AE1162 /* CJMeshFaceNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJMeshFaceNode.m; sourceTree = "<group>"; };
+		96041D9123D03F7B00AE1162 /* CJMaskFaceNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJMaskFaceNode.h; sourceTree = "<group>"; };
+		96041D9223D03F7B00AE1162 /* CJMaskFaceNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJMaskFaceNode.m; sourceTree = "<group>"; };
+		96041D9423D03F9100AE1162 /* CJRebotFaceNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJRebotFaceNode.h; sourceTree = "<group>"; };
+		96041D9523D03F9100AE1162 /* CJRebotFaceNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJRebotFaceNode.m; sourceTree = "<group>"; };
+		96041D9723D0519D00AE1162 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96041D4023D0355100AE1162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96041D5A23D0355400AE1162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96041D6523D0355400AE1162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96041D3A23D0355100AE1162 = {
+			isa = PBXGroup;
+			children = (
+				96041D4523D0355100AE1162 /* ARFaceTrackingDemo */,
+				96041D6023D0355400AE1162 /* ARFaceTrackingDemoTests */,
+				96041D6B23D0355400AE1162 /* ARFaceTrackingDemoUITests */,
+				96041D4423D0355100AE1162 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96041D4423D0355100AE1162 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96041D4323D0355100AE1162 /* ARFaceTrackingDemo.app */,
+				96041D5D23D0355400AE1162 /* ARFaceTrackingDemoTests.xctest */,
+				96041D6823D0355400AE1162 /* ARFaceTrackingDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96041D4523D0355100AE1162 /* ARFaceTrackingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				96041D7E23D036D600AE1162 /* AppDelegate */,
+				96041D7F23D036D600AE1162 /* Home */,
+				96041D7A23D036D500AE1162 /* VirtualFace */,
+				96041D4923D0355100AE1162 /* art.scnassets */,
+				96041D9723D0519D00AE1162 /* Models.scnassets */,
+				96041D4B23D0355100AE1162 /* ViewController.h */,
+				96041D4C23D0355100AE1162 /* ViewController.m */,
+				96041D4E23D0355100AE1162 /* Main.storyboard */,
+				96041D5123D0355300AE1162 /* Assets.xcassets */,
+				96041D5323D0355300AE1162 /* LaunchScreen.storyboard */,
+				96041D5623D0355300AE1162 /* Info.plist */,
+				96041D5723D0355300AE1162 /* main.m */,
+			);
+			path = ARFaceTrackingDemo;
+			sourceTree = "<group>";
+		};
+		96041D6023D0355400AE1162 /* ARFaceTrackingDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				96041D6123D0355400AE1162 /* ARFaceTrackingDemoTests.m */,
+				96041D6323D0355400AE1162 /* Info.plist */,
+			);
+			path = ARFaceTrackingDemoTests;
+			sourceTree = "<group>";
+		};
+		96041D6B23D0355400AE1162 /* ARFaceTrackingDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96041D6C23D0355400AE1162 /* ARFaceTrackingDemoUITests.m */,
+				96041D6E23D0355400AE1162 /* Info.plist */,
+			);
+			path = ARFaceTrackingDemoUITests;
+			sourceTree = "<group>";
+		};
+		96041D7A23D036D500AE1162 /* VirtualFace */ = {
+			isa = PBXGroup;
+			children = (
+				96041D8D23D03F5100AE1162 /* Node */,
+				96041D8923D03CE200AE1162 /* Manager */,
+				96041D7B23D036D500AE1162 /* VC */,
+				96041D7C23D036D500AE1162 /* Model */,
+				96041D7D23D036D500AE1162 /* View */,
+			);
+			path = VirtualFace;
+			sourceTree = "<group>";
+		};
+		96041D7B23D036D500AE1162 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				96041D8623D0375300AE1162 /* CJFaceViewController.h */,
+				96041D8723D0375300AE1162 /* CJFaceViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		96041D7C23D036D500AE1162 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		96041D7D23D036D500AE1162 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		96041D7E23D036D600AE1162 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				96041D4623D0355100AE1162 /* AppDelegate.h */,
+				96041D4723D0355100AE1162 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		96041D7F23D036D600AE1162 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				96041D8023D036D600AE1162 /* VC */,
+				96041D8123D036D600AE1162 /* Model */,
+				96041D8223D036D600AE1162 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		96041D8023D036D600AE1162 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				96041D8323D0370100AE1162 /* CJHomeTableViewController.h */,
+				96041D8423D0370100AE1162 /* CJHomeTableViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		96041D8123D036D600AE1162 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		96041D8223D036D600AE1162 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		96041D8923D03CE200AE1162 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				96041D8A23D03D0C00AE1162 /* CJVirtualFaceManager.h */,
+				96041D8B23D03D0C00AE1162 /* CJVirtualFaceManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		96041D8D23D03F5100AE1162 /* Node */ = {
+			isa = PBXGroup;
+			children = (
+				96041D8E23D03F6E00AE1162 /* CJMeshFaceNode.h */,
+				96041D8F23D03F6E00AE1162 /* CJMeshFaceNode.m */,
+				96041D9123D03F7B00AE1162 /* CJMaskFaceNode.h */,
+				96041D9223D03F7B00AE1162 /* CJMaskFaceNode.m */,
+				96041D9423D03F9100AE1162 /* CJRebotFaceNode.h */,
+				96041D9523D03F9100AE1162 /* CJRebotFaceNode.m */,
+			);
+			path = Node;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96041D4223D0355100AE1162 /* ARFaceTrackingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96041D7123D0355400AE1162 /* Build configuration list for PBXNativeTarget "ARFaceTrackingDemo" */;
+			buildPhases = (
+				96041D3F23D0355100AE1162 /* Sources */,
+				96041D4023D0355100AE1162 /* Frameworks */,
+				96041D4123D0355100AE1162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARFaceTrackingDemo;
+			productName = ARFaceTrackingDemo;
+			productReference = 96041D4323D0355100AE1162 /* ARFaceTrackingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96041D5C23D0355400AE1162 /* ARFaceTrackingDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96041D7423D0355400AE1162 /* Build configuration list for PBXNativeTarget "ARFaceTrackingDemoTests" */;
+			buildPhases = (
+				96041D5923D0355400AE1162 /* Sources */,
+				96041D5A23D0355400AE1162 /* Frameworks */,
+				96041D5B23D0355400AE1162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96041D5F23D0355400AE1162 /* PBXTargetDependency */,
+			);
+			name = ARFaceTrackingDemoTests;
+			productName = ARFaceTrackingDemoTests;
+			productReference = 96041D5D23D0355400AE1162 /* ARFaceTrackingDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96041D6723D0355400AE1162 /* ARFaceTrackingDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96041D7723D0355400AE1162 /* Build configuration list for PBXNativeTarget "ARFaceTrackingDemoUITests" */;
+			buildPhases = (
+				96041D6423D0355400AE1162 /* Sources */,
+				96041D6523D0355400AE1162 /* Frameworks */,
+				96041D6623D0355400AE1162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96041D6A23D0355400AE1162 /* PBXTargetDependency */,
+			);
+			name = ARFaceTrackingDemoUITests;
+			productName = ARFaceTrackingDemoUITests;
+			productReference = 96041D6823D0355400AE1162 /* ARFaceTrackingDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96041D3B23D0355100AE1162 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = com.Cingjin;
+				TargetAttributes = {
+					96041D4223D0355100AE1162 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					96041D5C23D0355400AE1162 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 96041D4223D0355100AE1162;
+					};
+					96041D6723D0355400AE1162 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 96041D4223D0355100AE1162;
+					};
+				};
+			};
+			buildConfigurationList = 96041D3E23D0355100AE1162 /* Build configuration list for PBXProject "ARFaceTrackingDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96041D3A23D0355100AE1162;
+			productRefGroup = 96041D4423D0355100AE1162 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96041D4223D0355100AE1162 /* ARFaceTrackingDemo */,
+				96041D5C23D0355400AE1162 /* ARFaceTrackingDemoTests */,
+				96041D6723D0355400AE1162 /* ARFaceTrackingDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96041D4123D0355100AE1162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96041D4A23D0355100AE1162 /* art.scnassets in Resources */,
+				96041D5523D0355300AE1162 /* LaunchScreen.storyboard in Resources */,
+				96041D5223D0355300AE1162 /* Assets.xcassets in Resources */,
+				96041D9823D0519D00AE1162 /* Models.scnassets in Resources */,
+				96041D5023D0355100AE1162 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96041D5B23D0355400AE1162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96041D6623D0355400AE1162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96041D3F23D0355100AE1162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96041D4D23D0355100AE1162 /* ViewController.m in Sources */,
+				96041D9623D03F9100AE1162 /* CJRebotFaceNode.m in Sources */,
+				96041D9323D03F7B00AE1162 /* CJMaskFaceNode.m in Sources */,
+				96041D8C23D03D0C00AE1162 /* CJVirtualFaceManager.m in Sources */,
+				96041D5823D0355300AE1162 /* main.m in Sources */,
+				96041D8823D0375300AE1162 /* CJFaceViewController.m in Sources */,
+				96041D9023D03F6E00AE1162 /* CJMeshFaceNode.m in Sources */,
+				96041D4823D0355100AE1162 /* AppDelegate.m in Sources */,
+				96041D8523D0370100AE1162 /* CJHomeTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96041D5923D0355400AE1162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96041D6223D0355400AE1162 /* ARFaceTrackingDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96041D6423D0355400AE1162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96041D6D23D0355400AE1162 /* ARFaceTrackingDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96041D5F23D0355400AE1162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96041D4223D0355100AE1162 /* ARFaceTrackingDemo */;
+			targetProxy = 96041D5E23D0355400AE1162 /* PBXContainerItemProxy */;
+		};
+		96041D6A23D0355400AE1162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96041D4223D0355100AE1162 /* ARFaceTrackingDemo */;
+			targetProxy = 96041D6923D0355400AE1162 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96041D4E23D0355100AE1162 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96041D4F23D0355100AE1162 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96041D5323D0355300AE1162 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96041D5423D0355300AE1162 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96041D6F23D0355400AE1162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		96041D7023D0355400AE1162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96041D7223D0355400AE1162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KTP58KSW9;
+				INFOPLIST_FILE = ARFaceTrackingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CingjinLanScan.ARFaceTrackingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96041D7323D0355400AE1162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KTP58KSW9;
+				INFOPLIST_FILE = ARFaceTrackingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CingjinLanScan.ARFaceTrackingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		96041D7523D0355400AE1162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ARFaceTrackingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CingjinLanScan.ARFaceTrackingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARFaceTrackingDemo.app/ARFaceTrackingDemo";
+			};
+			name = Debug;
+		};
+		96041D7623D0355400AE1162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ARFaceTrackingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CingjinLanScan.ARFaceTrackingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARFaceTrackingDemo.app/ARFaceTrackingDemo";
+			};
+			name = Release;
+		};
+		96041D7823D0355400AE1162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ARFaceTrackingDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CingjinLanScan.ARFaceTrackingDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARFaceTrackingDemo;
+			};
+			name = Debug;
+		};
+		96041D7923D0355400AE1162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ARFaceTrackingDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CingjinLanScan.ARFaceTrackingDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARFaceTrackingDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96041D3E23D0355100AE1162 /* Build configuration list for PBXProject "ARFaceTrackingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96041D6F23D0355400AE1162 /* Debug */,
+				96041D7023D0355400AE1162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96041D7123D0355400AE1162 /* Build configuration list for PBXNativeTarget "ARFaceTrackingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96041D7223D0355400AE1162 /* Debug */,
+				96041D7323D0355400AE1162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96041D7423D0355400AE1162 /* Build configuration list for PBXNativeTarget "ARFaceTrackingDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96041D7523D0355400AE1162 /* Debug */,
+				96041D7623D0355400AE1162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96041D7723D0355400AE1162 /* Build configuration list for PBXNativeTarget "ARFaceTrackingDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96041D7823D0355400AE1162 /* Debug */,
+				96041D7923D0355400AE1162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96041D3B23D0355100AE1162 /* Project object */;
+}
