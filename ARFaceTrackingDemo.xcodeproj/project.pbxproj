@@ -126,13 +126,11 @@
 				96041D7E23D036D600AE1162 /* AppDelegate */,
 				96041D7F23D036D600AE1162 /* Home */,
 				96041D7A23D036D500AE1162 /* VirtualFace */,
-				96041D4923D0355100AE1162 /* art.scnassets */,
-				96041D9723D0519D00AE1162 /* Models.scnassets */,
+				96041D9923D0695300AE1162 /* Resource */,
+				96041D4E23D0355100AE1162 /* Main.storyboard */,
+				96041D5323D0355300AE1162 /* LaunchScreen.storyboard */,
 				96041D4B23D0355100AE1162 /* ViewController.h */,
 				96041D4C23D0355100AE1162 /* ViewController.m */,
-				96041D4E23D0355100AE1162 /* Main.storyboard */,
-				96041D5123D0355300AE1162 /* Assets.xcassets */,
-				96041D5323D0355300AE1162 /* LaunchScreen.storyboard */,
 				96041D5623D0355300AE1162 /* Info.plist */,
 				96041D5723D0355300AE1162 /* main.m */,
 			);
@@ -254,6 +252,16 @@
 				96041D9523D03F9100AE1162 /* CJRebotFaceNode.m */,
 			);
 			path = Node;
+			sourceTree = "<group>";
+		};
+		96041D9923D0695300AE1162 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				96041D4923D0355100AE1162 /* art.scnassets */,
+				96041D9723D0519D00AE1162 /* Models.scnassets */,
+				96041D5123D0355300AE1162 /* Assets.xcassets */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
